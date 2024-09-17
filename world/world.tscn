@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://b50uxx12ca0o3"]
 
 [ext_resource type="Texture2D" uid="uid://c1m3s734ptokt" path="res://icon.svg" id="1_tvaql"]
-[ext_resource type="PackedScene" uid="uid://clkt1x2tsette" path="res://shake_camera/shake_camera.tscn" id="2_mmthj"]
+[ext_resource type="PackedScene" uid="uid://d03qqw8tprjan" path="res://new_folder/shake_camera.tscn" id="2_8tk0w"]
 
 [node name="World" type="Node2D"]
 
@@ -23,4 +23,5 @@ texture = ExtResource("1_tvaql")
 position = Vector2(272, 200)
 texture = ExtResource("1_tvaql")
 
-[node name="ShakeCamera" parent="." instance=ExtResource("2_mmthj")]
+[node name="ShakeCamera" parent="." node_paths=PackedStringArray("follow_node") instance=ExtResource("2_8tk0w")]
+follow_node = NodePath("../Objects/Sprite2D")

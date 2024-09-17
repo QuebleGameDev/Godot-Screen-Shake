@@ -14,3 +14,9 @@ config/name="Screen Shake"
 run/main_scene="res://world/world.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1613
+window/size/viewport_height=907
+window/stretch/mode="viewport"
