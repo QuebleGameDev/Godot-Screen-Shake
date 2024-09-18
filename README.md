@@ -11,7 +11,7 @@ If you find any issues with this project, feel free to contact me:
 - Email: queblegamedevelopment@gmail.com
 
 Additionally, I'd like to thank all my Patrons (at the time of writing this) for making this tutorial possible:
-  - n/a
+  - n/a 
 
 If you're interested in becoming a supporter, checkout my Patreon below! :)
 https://www.patreon.com/QuebleGames
